@@ -1,0 +1,70 @@
+.container {
+  width: 960px;
+  min-height: 950px;
+  margin: 0 auto;
+  font-family: 'Roboto';
+}
+
+.container-background {
+  background-image: url('../img/bg.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.contact {
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+.contact img {
+  margin-left: 3px;
+}
+
+.illustration {
+  position: relative;
+  margin-top: -10px;
+  clear: right;
+}
+
+.illustration img {
+  display: block;
+  margin: 0 auto;
+}
+
+.text-box {
+  width: 620px;
+  height: 170px;
+  margin: 0 auto;
+}
+
+.section-one {
+  margin-top: 40px;
+  color: black;
+  font-weight: 400;
+}
+
+.section-two {
+  margin-top: 60px;
+  color: white;
+  height: 175px;
+  font-weight: 500;
+}
+
+.text-box-content {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.section-one .text-box-content {
+  padding-top: 60px;
+}
+
+.section-two .text-box-content {
+  padding-top: 50px;
+}
+
+.bold {
+  font-weight: 700;
+}
