@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fusion</title>
+</head>
+<body>
+
+
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+<div ng-app="app" ng-controller="FusionTableCtrl" class="container" id="myfusiontable">
+    <h3>Seturi de date deschise in lucru:</h3>
+
+    <table class="table table-striped table-hover table-condensed">
+        <thead>
+        <tr>
+            <th ng-repeat="header in table.columns">{{ header }}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="row in table.rows">
+            <td ng-repeat="cell in row track by $index">{{ cell }}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script>
+    var app = angular.module("app", []);
+    app.controller("FusionTableCtrl", function($scope, $http) {
+        $scope.table = {}
+        $http.get("https://www.googleapis.com/fusiontables/v1/query",
+                { params: {sql: "select * from 1Cl-Q8WuBceTstf0Z7QM2i0IIQc_CtLnZGpyOqLsv",
+                    key: "AIzaSyBBmIYPn1yj47U6vqiSaz-MziSbnDFinKU"}})
+                .success(function(data) {
+                    $scope.table = data;
+                })
+                .error(function() {
+                    console.error("Error trying to retrieve fusion data");
+                    $("#myfusiontable").html("Error trying to get table data.")
+                });
+    });
+</script>
+
+
+
+
+</body>
+</html>
