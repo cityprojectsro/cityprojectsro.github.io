@@ -1,0 +1,298 @@
+
+::-moz-selection { background:#710c7a; color: #ffffff; text-shadow: none; }
+::selection { background:#710c7a; color: #ffffff; text-shadow: none; }
+
+.logo a {
+    width:1300px;
+    height:150px;
+    background-image:url(../../../uploads/2013/05/logo1.png);
+    background-size:auto auto ;
+	background-repeat:no-repeat;
+}/* Portrait tablet to landscape and desktop */@media (min-width: 768px) and (max-width: 979px) { .logo a {    width:560px;    height:105px;    background-image:url("../img/logo760.png");    background-size:560px 105px ;	background-repeat:no-repeat;}} /* Landscape phone to portrait tablet */@media (max-width: 767px) { .logo a {    width:560px;    height:105px;    background-image:url("../img/logo480.png");    background-size:480px 90px ;	background-repeat:no-repeat;}} /* Landscape phones and down */@media (max-width: 480px) { .logo a {    width:480px;    height:90px;    background-image:url("../img/logo480.png");    background-size:300px 56px ;	background-repeat:no-repeat;} }
+.fixed-logo a {
+    width:44px;
+    height:44px;
+    background-image:url(../../../uploads/2013/05/fixed-header1.png);
+    background-size: 44px 44px;
+}
+    body {
+        background-size:200px 200px;
+        background-repeat: repeat;
+        background-image:url(../img/wild_oliva.png);
+     }
+ 
+.header-social-container {
+    margin-top:14px;
+    margin-right:0px;
+}
+
+	
+
+/* 	----------------------------------------------------------------------------------------------	
+										CUSTOM THEME COLOR																												
+	----------------------------------------------------------------------------------------------	*/
+
+
+/* 	----------------------------------------------------------------------------------------------	
+										A - GENERAL STYLE																												
+	----------------------------------------------------------------------------------------------	*/
+
+h1,h2,h3,h4,h5,h6 {color:#3a3a3a;}
+body {color: #666666;}
+a {color: #1c1c1c;}
+a:hover {color: #710c7a;}
+
+/* global wrap style */
+.footer-wrap {border-top: 6px #710c7a solid;background:#404040;}
+
+ textarea:focus,
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="time"]:focus,
+    input[type="week"]:focus,
+    input[type="number"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="search"]:focus,
+    input[type="tel"]:focus,
+    input[type="color"]:focus,
+    .uneditable-input:focus {
+      border-color: rgba(113 , 12 , 122, 0.8);
+      outline: 0;
+      outline: thin dotted \9;
+      /* IE6-9 */
+    
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(113 , 12 , 122, 0.6);
+         -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(113 , 12 , 122, 0.6);
+              box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(113 , 12 , 122, 0.6);
+    }
+    
+/* 	----------------------------------------------------------------------------------------------	
+										B - LAYOUT																													
+	----------------------------------------------------------------------------------------------	*/
+/* = Header Style
+-------------------------------------------------------------- */
+
+/* header alert message */
+.header-top-content {background: #710c7a;}
+.header-information a:hover {color:#410946;}
+
+/* header menu , search form */
+.alterna-nav-menu li:hover {background:#710c7a;}
+
+.alterna-nav-menu > li.current-menu-item , .alterna-nav-menu > li.current-menu-ancestor {background:#710c7a;}
+.alterna-nav-menu .sub-menu {background:#f0ebf0;}
+
+.alterna-nav-menu .sub-menu li {border-bottom:1px #0C0C0C dotted;}
+.alterna-nav-menu .sub-menu li a {color:#0C0C0C;}
+.alterna-nav-menu > li.current-menu-item:hover  , 
+.alterna-nav-menu > li.current-menu-ancestor:hover ,
+.alterna-nav-menu > li.current-menu-item:hover .sub-menu, 
+.alterna-nav-menu > li.current-menu-ancestor:hover .sub-menu {background:#710c7a;}
+.alterna-nav-menu .sub-menu li:hover {background:#0c0c0c;}
+#alterna-nav {background:#0C0C0C;border-bottom:4px #710c7a solid;}
+
+
+#alterna-nav-menu-select {background:#0C0C0C;}
+#alterna-nav-menu-select .nav .active a, #alterna-nav-menu-select .nav a:hover {background:#710c7a;}
+
+/* header form */
+.searchform #sf-searchsubmit {border: 1px solid #710c7a;background-color: #710c7a;}
+
+/* = Footer Style
+-------------------------------------------------------------- */
+#footer-content {color: #999999;}
+#footer-content a {color: #e7e7e7;}
+#footer-content a:hover {color: #710c7a;}
+.footer-top-content h1 , 
+.footer-top-content h2 ,
+.footer-top-content h3 ,
+.footer-top-content h4 ,
+.footer-top-content h5, 
+.footer-top-content h6 {color:#ffffff;}
+
+.footer-bottom-content {border-top: none;background-color: #0C0C0C;}
+
+#footer-content .footer-copyright a {color: #606060;}
+#footer-content .footer-copyright  a:hover {color: #710c7a;}
+
+/* = Other Element Style
+-------------------------------------------------------------- */
+
+/* line style */
+.left-line {background:#710c7a;}
+
+/* back top */
+#back-top:hover {background-color:#710c7a;}
+
+/* 	----------------------------------------------------------------------------------------------	
+										C - PAGE STYLES																											
+	----------------------------------------------------------------------------------------------	*/
+
+/* = Post , Blog
+-------------------------------------------------------------- */
+
+.entry-left-side .post-type , .single-post .post-type {background: #710c7a;}
+.entry-right-side .title h3:hover {color:#710c7a;}
+.single-post .post-tags .post-tags-icon {background: #710c7a;}
+
+/* post image */
+div.left-link:hover ,div.right-link:hover ,div.center-link:hover {background: #710c7a;}
+.post-quote-entry {background:#710c7a;}
+
+/* post with ajax */
+.post-ajax-element .post-type {background: #710c7a;}
+
+.post-meta a:hover , 
+.comment-meta a:hover , 
+.search-post-mate a:hover {color:#710c7a !important;}
+
+/* = Portfolio Style
+-------------------------------------------------------------- */
+.portfolio-filters-cate li a:hover {color: #7AB80E;border: 1px solid #710c7a;}
+.portfolio-wrap .post-tip h4 , .portfolio-wrap .post-tip h5 {color: #710c7a;}
+.portfolio-element.portfolio-style-1:hover .portfolio-content { border-bottom: 1px #710c7a solid;}
+.portfolio-element:hover .portfolio-content h5 {color: #710c7a;}
+.post-tip-info .portfolio-client {color: #710c7a;}
+
+/* 	----------------------------------------------------------------------------------------------	
+										D. WIDGETS																										
+	----------------------------------------------------------------------------------------------	*/
+
+/* ------- 2. Button  ------- */
+.btn-custom , input.btn-custom {border-color:#710c7a;background: #710c7a;}
+.btn-custom:hover , input.btn-custom:hover {background:#410946;}
+
+/* ------- 3. Home Post Widget  ------- */
+.blog-big-widget .post-type {background: #710c7a;}
+
+/* ------- 5. Search Form  ------- */
+.sidebar-searchform input[type=submit] ,
+.widget_product_search #searchform input[type=submit] {border: none;background-color:#710c7a;}
+
+/* ------- 6. Archive  ------- */
+.footer-top-content .widget_archive ul li a:hover , 
+.footer-top-content .widget_login ul li a:hover ,
+.footer-top-content .widget_categories ul li a:hover ,
+.footer-top-content .widget_product_categories ul li a:hover ,
+.footer-top-content .widget_nav_menu ul li a:hover ,
+.footer-top-content .widget_alternaportfoliocategorywidget ul li a:hover ,
+.footer-top-content .widget_recent_entries ul li a:hover ,
+.footer-top-content .widget_pages  ul li a:hover ,
+.footer-top-content .widget_recent_comments ul li:hover ,
+.footer-top-content .widget_meta ul li a:hover ,
+.footer-top-content .widget_links ul li a:hover ,
+.footer-top-content .widget_tag_cloud .tagcloud a:hover{
+	background: #710c7a;
+}
+.footer-top-content .widget_recent_comments ul li a:hover {
+	color:#410946 !important;
+}
+
+/* ------- 7. Sidebar Portfolio Recent  ------- */
+.sidebar-portfolio-recent .portfolio-type {background: #710c7a;}
+
+/* ------- 9. Blog List  ------- */
+.shortcode-post-element .date {background: #710c7a;}
+.shortcode-post-element .post-comments a:hover {color:#710c7a;}
+
+.skills .skill-bg {	background: #710c7a;}
+/* 	----------------------------------------------------------------------------------------------	
+										E - EXTRAS																					
+	----------------------------------------------------------------------------------------------	*/
+
+/* = Shortcode Element Style
+-------------------------------------------------------------- */
+
+/* ------- 1. Call To Action  ------- */
+.call-to-action-bar {border-left:10px #710c7a solid;background:#f4f4f4;}
+
+/* ------- 2. Tabs  ------- */
+.tabs .tabs-nav li.current {border-top:2px #710c7a solid;}
+
+/* ------- 9. Services  ------- */
+.services.show-bg:hover {background:#710c7a;}
+.services .services-icon {background: #710c7a;}
+.services.show-bg:hover .services-icon {color: #710c7a;}
+
+/* ------- 11. History  ------- */
+.history .history-date{background: #710c7a;}
+.history .history-line {background: #710c7a;}
+.history .history-hor-line {background: #710c7a;}
+.history .history-start-point {border: 4px #710c7a solid;}
+
+/* ------- 12. Features  ------- */
+.features.show-bg:hover {background:#710c7a;}
+.features .features-icon {background: #710c7a;}
+.features.show-bg:hover .features-icon {color: #710c7a;}
+.features.show-bg:hover h3 , .features.show-bg:hover .features-content{color:#ffffff;}
+
+
+/* ------- 13. WooCommerce  ------- */
+
+.woocommerce a.button:hover, .woocommerce-page a.button:hover, .woocommerce button.button:hover, 
+.woocommerce-page button.button:hover, .woocommerce input.button:hover, .woocommerce-page input.button:hover, 
+.woocommerce #respond input#submit:hover, .woocommerce-page #respond input#submit:hover, 
+.woocommerce #content input.button:hover, .woocommerce-page #content input.button:hover ,
+.woocommerce ul.products li.product h3:hover, .woocommerce-page ul.products li.product h3:hover {
+	color:#710c7a;
+}
+
+.woocommerce div.product span.price, .woocommerce-page div.product span.price, 
+.woocommerce #content div.product span.price, .woocommerce-page #content div.product span.price,
+.woocommerce div.product p.price, .woocommerce-page div.product p.price, .woocommerce #content div.product p.price, 
+.woocommerce-page #content div.product p.price {
+	color:#710c7a;
+}
+
+.woocommerce div.product .stock,.woocommerce-page div.product .stock,
+.woocommerce #content div.product .stock,
+.woocommerce-page #content div.product .stock{
+	color:#710c7a;
+}
+
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{color:#710c7a;}
+
+.woocommerce span.onsale, .woocommerce-page span.onsale {background: #710c7a;}
+
+.woocommerce ul.product_list_widget li .amount {	color:#710c7a;}
+
+.woocommerce a.button.alt,.woocommerce-page a.button.alt,.woocommerce button.button.alt,
+.woocommerce-page button.button.alt,.woocommerce input.button.alt,.woocommerce-page input.button.alt,
+.woocommerce #respond input#submit.alt,.woocommerce-page #respond input#submit.alt,
+.woocommerce #content input.button.alt,.woocommerce-page #content input.button.alt{
+	background:#710c7a;
+	border-color:#410946;
+}
+
+.woocommerce a.button.alt:hover,.woocommerce-page a.button.alt:hover,.woocommerce button.button.alt:hover,
+.woocommerce-page button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce-page input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,.woocommerce-page #respond input#submit.alt:hover,
+.woocommerce #content input.button.alt:hover,.woocommerce-page #content input.button.alt:hover{
+	background:#410946;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle{
+	background:#710c7a;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-range{
+	background:#710c7a url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAFUlEQVQIHWP4//9/PRMDA8NzEPEMADLLBU76a5idAAAAAElFTkSuQmCC) top repeat-x;box-shadow:inset 0 0 0 1px rgba(0,0,0,0.5);
+}
+
+.cart-collaterals .cart_totals .discount td{color:#710c7a;}
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+.logo a { background-image:url(../../../uploads/2013/05/logo1.png); }
+.fixed-logo a { background-image:url(../../../uploads/2013/05/fixed-header-2x1.png); }
+body { background-image:url(../img/wild_oliva@2x.png); }
+}

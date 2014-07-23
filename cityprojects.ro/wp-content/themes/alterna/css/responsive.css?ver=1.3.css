@@ -1,0 +1,246 @@
+/*!
+ * Alterna Theme Responsive css 
+ */
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 1200px) {
+	
+/* = Global Columns
+-------------------------------------------------------------- */
+	.span8 .columns-2 {width:48%;margin:0px 0.9% 10px;}
+	.span8 .columns-4 {width:31%;margin:0px 0.9% 10px;}
+	
+	/* post with ajax */
+	.post-ajax-content .post-quote-entry {padding: 60px 20px 20px 20px;}
+	.span12 .columns-2 .post-ajax-border {width: 94.4%;padding: 2.6%;}
+	.span12 .columns-3 .post-ajax-border {width: 94%;padding: 2.8%;}
+	.span12 .columns-4 .post-ajax-border {width: 93.6%;padding: 3%;}
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+/* = Global Wrap Style
+-------------------------------------------------------------- */
+	body.full-width-layout {padding:0px !important;}
+	.header-wrap {padding:20px 20px 0px;}
+	.header-wrap.container {margin-top:20px;}
+	.header-top-content {padding: 6px 20px;margin-left: -20px;	margin-top: -20px;}
+	.content-wrap {padding:0px 20px;background:#ffffff;}
+	.footer-wrap {padding:0px 20px;}
+	.footer-wrap.container {margin-bottom:20px;}
+	.footer-bottom-content {padding: 8px 20px;margin-left: -20px;}
+	
+/* = Global Columns
+-------------------------------------------------------------- */
+	.row-fluid .columns-2 ,
+	.row-fluid .columns-3 ,
+	.row-fluid .columns-4 {width:48%;margin:0px 0.9% 10px;}
+	.span8 .columns-2 , .span8 .columns-3 , .span8 .columns-4 {width:100%;margin:0px 0px 10px;}
+	.span8 .portfolio-container .columns-4 ,
+	.span8 .portfolio-container .columns-3 {width:84%;margin:0px 7.5% 10px;}
+	
+	
+/* = Header Style
+-------------------------------------------------------------- */
+
+	/* form */
+	.searchform #sf-s:hover {width: 110px;}
+	
+	/* blog */
+	.entry-left-side .date {padding: 5px 5px;width: 58px;}
+	.entry-left-side .post-type {padding: 5px 0px; }
+	.entry-left-side .day {font-size: 25px;width: 53%;}
+	
+	/* post with ajax */
+	.post-ajax-content .post-quote-entry {padding:30px 10px;}
+	.post-ajax-content .post-quote-icon {zoom:0.5;}
+	.span8 .columns-4 .post-ajax-content .post-quote-entry {padding: 20px 20px 20px 60px;}
+	.columns-3 .post-ajax-content .post-quote-icon , .span8 .columns-3 .post-ajax-content .post-quote-icon {zoom:1;}
+	.columns-3 .post-ajax-content .post-quote-entry {padding: 60px 10px 10px 10px;}
+	.span8 .columns-3 .post-ajax-content .post-quote-entry {padding: 20px 20px 20px 60px;}
+	.span8 .post-ajax-border {width: 95.6% !important;padding: 2% !important;}
+	.span12 .columns-3 .post-ajax-border , .span12 .columns-4 .post-ajax-border {width: 92.2% ;padding: 3.2%!;}
+	.single-post .post-type {zoom:0.8;}
+	
+	/* WooCommerce */
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width:31%; }
+	.woocommerce ul.products li.product a img { width:100%; }
+	.woocommerce ul.products li.product.first, ul.products li.first { clear:none; float:left; }
+	.woocommerce ul.products li.product.last, ul.products li.last { margin-right:2.2%; }
+	.woocommerce ul.products li.product:nth-child(3n+1) { clear:both; margin-right:2.2%; }
+	.woocommerce ul.products li.product:nth-child(3n+3) { margin-right:0; }
+	
+	.woocommerce .upsells ul.products li.first , .woocommerce .related ul.products li.first {margin-right:2.2%; }
+	.woocommerce .upsells ul.products li.last , .woocommerce .related ul.products li.last {margin-right:0;clear: none;}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+	body.full-width-layout {padding:0px !important;}
+/* = Global Columns
+-------------------------------------------------------------- */
+	.row-fluid .columns-4 ,	
+	.row-fluid .columns-3 , 
+	.row-fluid .columns-2 ,
+	.span8 .columns-4 ,
+	.span8 .columns-3 ,
+	.span8 .columns-2 {width:99.6%;margin:0px 0.2% 10px;}
+	.portfolio-container .columns-4 ,
+	.portfolio-container .columns-3 ,
+	.portfolio-container .columns-2 {width:90%;margin:0px 4.5% 10px;}
+	
+	
+/* = Header Style
+-------------------------------------------------------------- */
+	
+	/* header alert message */
+	.header-information {width: 100%;text-align: center;}
+	.header-information-line  {display:none}
+	.header-information-element {float: none;margin-left: 0px;padding-left: 0px;}
+	
+	/* logo */
+	#alterna-header .logo {width:100%;text-align:center;}
+	#alterna-header .logo a {margin:0px auto;float:none;}
+	
+	/* social */
+	#alterna-header .header-social-container {width: 100%;margin-right: 0px;text-align: center;}
+	
+	
+	/* menu */
+	#alterna-drop-nav {display:block;}
+	.alterna-nav-menu {display:none;}
+	
+	/* form */
+	.alterna-nav-form-container {width:100%}
+	.alterna-nav-form-container .searchform #sf-s {width:90%}
+	
+/* = Footer Style
+-------------------------------------------------------------- */
+	.footer-copyright {width: 100%;text-align: center;margin-bottom:10px;}
+	.footer-link {width: 100%;text-align: center;}
+	
+/* = Post Style
+-------------------------------------------------------------- */
+	.placeholding-input .comment-placeholder {left: 5px;}
+	.comment-list > .children, .comment-list > .children > .children {margin-left: 0px;}
+	#comment-form #comment-textarea #comment {width:90% !important;float:left;}
+	
+	/* post with ajax */
+	.post-ajax-content .post-quote-entry {padding: 20px 20px 20px 60px;}
+	.span8 .columns-4 .post-ajax-content .post-quote-entry {padding: 20px 20px 20px 60px;}
+	.span8 .columns-4 .post-ajax-content .post-quote-icon {zoom:1;}
+	.span8 .columns-3 .post-ajax-content .post-quote-entry {padding: 20px 20px 20px 60px;}
+
+	.post-ajax-border {width: 96.4% !important;padding: 1.6% !important;}
+	
+	
+/* = Portfolio Style
+-------------------------------------------------------------- */
+	.portfolio-filters-cate li {width:100%;}
+	
+/* = Shortcode Element Style
+-------------------------------------------------------------- */
+	
+	/* ------- 1. Call To Action  ------- */
+	.call-to-action-bar .btn , .call-to-action-bar .btn.default {position:static;margin-top:10px;}
+	
+	/* ------- 3. SideTabs  ------- */
+	.sidetabs .sidetabs-container {float: left;margin-left: 0px;}
+	
+	/* ------- 7. Price Table  ------- */
+	.price {margin-bottom: 20px;}
+	
+	#contact-form #commentsText {width:100%;}
+	
+	.portfolio-element {
+		margin-bottom:20px;
+		float:left !important;
+	}
+	
+	/* WooCommerce */
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width:48%; }
+	.woocommerce ul.products li.product a img { width:100%; }
+	.woocommerce ul.products li.product.first, ul.products li.first { clear:none; float:left; }
+	.woocommerce ul.products li.product.last, ul.products li.last { margin-right:2.2%; }
+	.woocommerce ul.products li.product:nth-child(2n+1) { clear:both; margin-right:2.2%; }
+	.woocommerce ul.products li.product:nth-child(2n+2) { margin-right:0; }
+	
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+/* = Global Columns
+-------------------------------------------------------------- */
+	.portfolio-container .columns-4 ,
+	.portfolio-container .columns-3 ,
+	.portfolio-container .columns-2 {width:99%;margin:0px 0.5% 10px;}
+	
+/* = Global Wrap Style
+-------------------------------------------------------------- */
+	body.boxed-layout {padding:0px 10px;}
+	.header-wrap {padding:20px 15px 0px;}
+	.header-wrap.container {margin-top:10px;}
+	.header-top-content {padding: 6px 15px;margin-left: -15px;	margin-top: -20px;}
+	.content-wrap {padding:0px 15px;background:#ffffff;}
+	.footer-wrap {padding:0px 15px;}
+	.footer-wrap.container {margin-bottom:10px;}
+	.footer-bottom-content {padding: 8px 15px;margin-left: -15px;}
+
+/* = Post Style
+-------------------------------------------------------------- */
+
+	/* post with ajax */		
+	.post-ajax-border {width: 95% !important;padding: 2.2% !important;}
+	
+/* = Shortcode Element Style
+-------------------------------------------------------------- */
+	
+	/* ------- 4. Client testimonials  ------- */
+	.testimonials.testimonials-avatar .testimonials-content {float:left;}
+	.testimonials.testimonials-avatar .testimonials-content {margin-left:0px;}
+	.testimonials.testimonials-avatar .testimonials-name .testimonials-icon {margin-left: 23px;}
+	
+	/* ------- 11. History  ------- */
+	.history .history-line , .history .history-hor-line , .history .history-start-point  {display:none;}
+	.history .history-container , .history .history-content.history-hasimg {margin-top: 10px;float: left;margin-left: 0px;}
+	
+	/* WooCommerce */
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width:99%; }
+	.woocommerce ul.products li.product a img { width:100%; }
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { margin-right:0 !important; }
+	
+	.woocommerce .related ul.products li.product, .woocommerce-page .related ul.products li.product, 
+	.woocommerce .upsells.products ul.products li.product, .woocommerce-page .upsells.products ul.products li.product, 
+	.woocommerce .related ul li.product, .woocommerce-page .related ul li.product, 
+	.woocommerce .upsells.products ul li.product, .woocommerce-page .upsells.products ul li.product {width:99%;margin-right:0; }
+	
+}
+
+/* Landscape phones and down */
+@media (max-width: 321px) {
+/* = Global Columns
+-------------------------------------------------------------- */
+	/*.portfolio-container .columns-4 , 
+	.portfolio-container .columns-3 ,
+	.portfolio-container .columns-2 {width:99%;margin:0px 0.5% 10px;}*/
+	
+/* = Global Wrap Style
+-------------------------------------------------------------- */
+	body.boxed-layout {padding:0 5px;}
+	.header-wrap {padding:10px 10px 0px;}
+	.header-wrap.container {margin-top:5px;}
+	.header-top-content {padding: 6px 10px;margin-left: -10px;	margin-top: -10px;}
+	.content-wrap {padding:0px 10px;background:#ffffff;}
+	.footer-wrap {padding:0px 10px;}
+	.footer-wrap.container {margin-bottom:5px;}
+	.footer-bottom-content {padding: 8px 10px;margin-left: -10px;}
+	
+/* = Post Style
+-------------------------------------------------------------- */
+
+	/* post with ajax */	
+	.post-ajax-border {width: 94% !important;padding: 2.8% !important;}
+}
